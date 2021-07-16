@@ -1,5 +1,6 @@
 # Laboratorio_04
 
+
 2. Localize o arquivo RTX_Config.h na lista de
 dependências do arquivo rtx_lib.c e
 analise-o. Quais são as configurações para:
@@ -7,11 +8,13 @@ analise-o. Quais são as configurações para:
 – OS_THREAD_NUM? ->   1
 – OS_THREAD_DEF_STACK_NUM? ->   1
 
+
 3. Altere a configuração OS_TICK_FREQ para
 500.
 – Qual é o efeito dessa alteração na execução do
 programa do projeto “tarefas”?
 R: Os LEDs D1 e D2 começam a piscar mais lentamente, aproximadamente na metade da velocidade.
+
 
 4. Retorne a configuração OS_TICK_FREQ para
 o seu valor original.
